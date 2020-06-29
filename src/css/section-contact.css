@@ -1,0 +1,137 @@
+/*  Section-contact start */
+
+.section-contact__container {
+  padding-top: 90px;
+}
+
+.section-contact__title {
+  color: black;
+  text-align: center;
+  line-height: calc(2 / 36);
+  margin: 0 auto;
+  max-width: 565px;
+  width: 100%;
+}
+
+.section-contact__subtitle {
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 565px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.section-contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.form-send {
+  width: 1200px;
+  text-align: center;
+}
+
+.form__input {
+  width: 100%;
+  max-width: 383px;
+  padding: 20px 28px;
+  background: #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 9px;
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+  outline: none;
+}
+
+.form__input:focus {
+  background: inherit;
+  border: 1px solid #ffa650;
+}
+
+.form__input--message {
+  width: 100%;
+  min-height: 120px;
+  padding: 20px 28px 90px 28px;
+  background: #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  border: none;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+}
+
+.form__input--message:focus {
+  background: inherit;
+  border: 1px solid #ffa650;
+}
+
+.form__btn {
+  width: 100%;
+  border-radius: 5px;
+  max-width: 640px;
+  min-height: 60px;
+  margin: 43px 0px 43px 0px;
+  background: #fbd633;
+}
+
+@media (max-width: 1200px) {
+  .form__input {
+    max-width: 100%;
+  }
+  .section-contact__container {
+    width: 950px;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-contact__container {
+    width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-contact__container {
+    width: 550px;
+  }
+
+  .form__btn {
+    margin: 15px 0px 15px 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-contact__container {
+    width: 450px;
+    padding-top: 50px;
+  }
+
+  .form__btn {
+    min-height: 80px;
+  }
+
+  .section-contact__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 484px) {
+  .section-contact__container {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form__btn {
+    font-size: 13px;
+  }
+}
+
+/*  Section-contact end */
